@@ -48,7 +48,7 @@ We use five different methods to solve the problem:
 + MIP model
 + CP model
 
-The number of items N and cars K are integers, and the items' weight and value, the cars' lower bound and upper bound for capacity will be stored as a list of lists. You can input them by hand:
+The number of items N and cars K are integers, and the items' weight and value, the cars' lower bound and upper bound for capacity will be stored as lists of lists. You can input them by hand:
 ```
 N, K = [8, 3] #number of customers and cars
 items = [[3, 5], [6, 3], [2, 5], [5, 5], [3, 4], [4, 3], [4, 6], [2, 1]] #list of items
